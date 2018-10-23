@@ -150,7 +150,8 @@ name="{{ .Name }}"
 
 [[constraint]]
   name="sigs.k8s.io/controller-tools"
-  version="v0.1.1"
+  source = "https://github.com/stevesloka/controller-tools.git"
+  branch = "updateDockerbase"
 
 # For dependency below: Refer to issue https://github.com/golang/dep/issues/1799
 [[override]]
